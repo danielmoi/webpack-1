@@ -42,7 +42,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1);
 
 	document.write('Welcome to my app');
 
@@ -50,6 +52,13 @@
 	console.log('watch mode set up');
 	console.log('webpack dev server set up!!');
 	console.log('webpack dev server running with --inline flag');
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	console.log('logger.js is now loaded');
 
 
 /***/ }
