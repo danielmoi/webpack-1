@@ -1,4 +1,4 @@
-require('./logger.js');
+require('./logger');
 
 document.write('Welcome to my app');
 

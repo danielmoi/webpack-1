@@ -1,0 +1,29 @@
+{
+  "name": "webpack-1",
+  "version": "1.0.0",
+  "description": "From this tutorial https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.x6yr8eb5p",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmoi/webpack-1.git"
+  },
+  "author": "Daniel Moi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmoi/webpack-1/issues"
+  },
+  "homepage": "https://github.com/danielmoi/webpack-1#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "jshint": "^2.9.2",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^1.0.0",
+    "webpack": "^1.13.1"
+  }
+}
