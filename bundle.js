@@ -45,6 +45,21 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
+	module.exports = __webpack_require__(2);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	console.log('global.js is now loaded');
+
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(3);
 
 	document.write('Welcome to my app');
 
@@ -55,7 +70,7 @@
 
 
 /***/ },
-/* 1 */
+/* 3 */
 /***/ function(module, exports) {
 
 	console.log('logger.js is now loaded');
