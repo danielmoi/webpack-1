@@ -52,7 +52,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	console.log('global.js is now loaded');
+	console.log('global.js is now loaded!!');
 
 
 /***/ },
