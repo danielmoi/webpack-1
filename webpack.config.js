@@ -5,14 +5,14 @@ module.exports = {
   },
   watch: true,
   module: {
-    preLoaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: 'jshint-loader'
-
-    }],
+    // preLoaders: [{
+    //   test: /\.js$/,
+    //   exclude: /node_modules/,
+    //   loader: 'jshint-loader'
+    //
+    // }],
     loaders: [{
-      test: /\.es6$/,
+      test: [/\.js$/, /\.es6$/],
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
